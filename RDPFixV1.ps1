@@ -1,4 +1,5 @@
 function Restart-RDP {
+    [cmdletbinding()]
     param (
         OptionalParameters
     )
