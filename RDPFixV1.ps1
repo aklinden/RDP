@@ -1,3 +1,10 @@
+function Restart-RDP {
+    param (
+        OptionalParameters
+    )
+    
+}
+
 $rdpTcp = qwinsta | Select-String "rdp-tcp"
 if ($rdpTcp -eq $null) {
 
